@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix Content Analysis Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="netflix-styles.css">
+</head>
+<body>
+  <div class="noise-layer"></div>
+  <div class="page-shell">
+    <header class="hero reveal">
+      <nav class="topbar">
+        <span class="eyebrow">Project Showcase</span>
+        <span class="topbar-note">Netflix Data Analysis</span>
+      </nav>
+
+      <div class="hero-grid">
+        <section class="hero-copy">
+          <p class="section-tag">Streaming Catalog Story</p>
+          <h1>Studying how Netflix content grows, shifts, and spreads across the world.</h1>
+          <p class="hero-text">
+            In this project, I analyzed Netflix's content catalog to understand how movies and TV shows are distributed
+            by year, genre, country, and content rating. I used Python for cleaning and exploratory analysis, then built
+            an interactive Power BI dashboard to present the patterns clearly.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#what-i-did" class="button button-primary">What I Did</a>
+            <a href="#insights" class="button button-secondary">Key Insights</a>
+            <a href="#project-files" class="button button-secondary">Project Files</a>
+          </div>
+
+          <div class="hero-badges">
+            <span class="badge">Python Workflow</span>
+            <span class="badge">EDA + Visualization</span>
+            <span class="badge">Power BI Dashboard</span>
+          </div>
+        </section>
+
+        <aside class="hero-panel reveal">
+          <div class="panel-card accent">
+            <span class="panel-label">Focus</span>
+            <strong>Content Mix & Growth Trends</strong>
+          </div>
+          <div class="panel-card">
+            <span class="panel-label">Dataset</span>
+            <strong>Netflix Titles Catalog</strong>
+          </div>
+          <div class="panel-card">
+            <span class="panel-label">Questions</span>
+            <strong>Genres, Ratings, Countries, Release Trends</strong>
+          </div>
+          <div class="panel-card">
+            <span class="panel-label">Final Output</span>
+            <strong>Interactive Microsoft Power BI Report</strong>
+          </div>
+        </aside>
+      </div>
+    </header>
+
+    <main>
+      <section class="stats-band reveal">
+        <article class="stat-box">
+          <span class="stat-number" data-count="4">0</span>
+          <span class="stat-caption">Main tools used</span>
+        </article>
+        <article class="stat-box">
+          <span class="stat-number" data-count="5">0</span>
+          <span class="stat-caption">Dashboard views highlighted</span>
+        </article>
+        <article class="stat-box">
+          <span class="stat-number" data-count="4">0</span>
+          <span class="stat-caption">Core insights presented</span>
+        </article>
+      </section>
+
+      <section id="what-i-did" class="content-grid">
+        <article class="story-card reveal">
+          <p class="section-tag">What I Did</p>
+          <h2>From raw content data to a business-ready dashboard</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <span class="timeline-step">01</span>
+              <div>
+                <h3>Prepared the dataset</h3>
+                <p>I cleaned and organized the Netflix titles data so it could be explored consistently across years, countries, types, and ratings.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-step">02</span>
+              <div>
+                <h3>Performed exploratory analysis</h3>
+                <p>I used Python and Pandas to study the structure of the content library and check how movies and shows are distributed across different dimensions.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-step">03</span>
+              <div>
+                <h3>Visualized content patterns</h3>
+                <p>With Matplotlib, I explored genre frequency, rating patterns, production trends, and country contribution to understand what stands out in the catalog.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-step">04</span>
+              <div>
+                <h3>Built the Power BI dashboard</h3>
+                <p>I converted the analysis into an interactive dashboard so users can filter content by year, country, type, and rating for a clearer storytelling experience.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="story-card reveal">
+          <p class="section-tag">Questions Explored</p>
+          <h2>What this project helps explain</h2>
+          <ul class="question-list">
+            <li>How are movies and TV shows distributed in the Netflix catalog?</li>
+            <li>How has Netflix content grown over time?</li>
+            <li>Which countries contribute the most titles?</li>
+            <li>Which genres appear most frequently?</li>
+            <li>How is content distributed across ratings?</li>
+          </ul>
+        </article>
+      </section>
+
+      <section id="insights" class="insights-layout">
+        <article class="insights-card reveal">
+          <p class="section-tag">Key Insights</p>
+          <h2>What I found in the data</h2>
+          <div class="insight-grid">
+            <div class="insight-tile">
+              <h3>Movies dominate the catalog</h3>
+              <p>Movies make up a larger share of Netflix's content library than TV shows.</p>
+            </div>
+            <div class="insight-tile">
+              <h3>Growth accelerated after 2016</h3>
+              <p>The content library shows a noticeable increase in production and additions from around 2016 onward.</p>
+            </div>
+            <div class="insight-tile">
+              <h3>The United States leads title count</h3>
+              <p>Country-level analysis showed the United States contributing the highest number of titles.</p>
+            </div>
+            <div class="insight-tile">
+              <h3>Drama and international genres stand out</h3>
+              <p>Genre analysis suggests that drama and internationally oriented content appear frequently across the catalog.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="dashboard-card reveal">
+          <div class="dashboard-copy">
+            <p class="section-tag">Dashboard Preview</p>
+            <h2>A clearer view of Netflix content behavior</h2>
+            <p>
+              The dashboard brings together title counts, type split, time-based growth, country contribution,
+              content ratings, and genre distribution in one interface with interactive filters.
+            </p>
+          </div>
+          <div class="dashboard-frame">
+            <img src="images/Dashboard_full_view.png" alt="Netflix content analysis dashboard preview">
+          </div>
+        </article>
+      </section>
+
+      <section id="project-files" class="project-files reveal">
+        <div class="section-heading">
+          <p class="section-tag">Project Build</p>
+          <h2>What the workflow and deliverables look like</h2>
+        </div>
+
+        <div class="workflow-row">
+          <div class="workflow-node">
+            <span>Source</span>
+            <strong>Netflix Titles CSV</strong>
+          </div>
+          <div class="workflow-arrow" aria-hidden="true">→</div>
+          <div class="workflow-node">
+            <span>Analysis</span>
+            <strong>Python Notebook + EDA</strong>
+          </div>
+          <div class="workflow-arrow" aria-hidden="true">→</div>
+          <div class="workflow-node">
+            <span>Presentation</span>
+            <strong>Power BI Dashboard</strong>
+          </div>
+        </div>
+
+        <div class="resource-grid">
+          <a class="resource-link" href="file:///C:/Users/Madhuneshwari/OneDrive/MY%20PROJECTS/Netflix%20Data%20Analysis%20Project/dashboard/Netflix_Dashboard.pbix">
+            <span class="resource-type">Dashboard File</span>
+            <strong>Netflix_Dashboard.pbix</strong>
+          </a>
+          <a class="resource-link" href="file:///C:/Users/Madhuneshwari/OneDrive/MY%20PROJECTS/Netflix%20Data%20Analysis%20Project/notebooks/netflix_analysis.ipynb">
+            <span class="resource-type">Notebook</span>
+            <strong>netflix_analysis.ipynb</strong>
+          </a>
+          <a class="resource-link" href="file:///C:/Users/Madhuneshwari/OneDrive/MY%20PROJECTS/Netflix%20Data%20Analysis%20Project/data/netflix_titles.csv">
+            <span class="resource-type">Source Dataset</span>
+            <strong>netflix_titles.csv</strong>
+          </a>
+        </div>
+      </section>
+
+      <section id="skills" class="skills-section reveal">
+        <div class="section-heading">
+          <p class="section-tag">Skills I Learned</p>
+          <h2>What this project strengthened</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <h3>Data Preparation</h3>
+            <p>I improved my ability to clean entertainment data and structure it for smoother downstream analysis.</p>
+          </article>
+          <article class="skill-card">
+            <h3>Exploratory Analysis</h3>
+            <p>I practiced breaking down a large content catalog into type, country, genre, year, and rating patterns.</p>
+          </article>
+          <article class="skill-card">
+            <h3>Visualization Thinking</h3>
+            <p>I learned how to choose visuals that explain distribution, growth, and comparison clearly.</p>
+          </article>
+          <article class="skill-card">
+            <h3>Dashboard Storytelling</h3>
+            <p>I built a layout that lets viewers explore content behavior dynamically instead of reading static notes.</p>
+          </article>
+          <article class="skill-card">
+            <h3>Business Interpretation</h3>
+            <p>I got more confident at turning media catalog analysis into insights that are easy to discuss and present.</p>
+          </article>
+          <article class="skill-card">
+            <h3>Power BI Presentation</h3>
+            <p>I strengthened how I present cleaned data and analytical findings through interactive dashboard design.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="stack-section reveal">
+        <article class="stack-card">
+          <p class="section-tag">Tools Used</p>
+          <h2>Core stack behind the project</h2>
+          <div class="pill-row">
+            <span class="pill">Python</span>
+            <span class="pill">Pandas</span>
+            <span class="pill">Matplotlib</span>
+            <span class="pill">Microsoft Power BI</span>
+          </div>
+        </article>
+
+        <article class="summary-card">
+          <p class="section-tag">Project Summary</p>
+          <p>
+            This project demonstrates my ability to clean content data, analyze how a streaming catalog behaves,
+            and turn those findings into an interactive dashboard that is simple to explore.
+          </p>
+          <p class="summary-quote">
+            I used data analysis not just to count titles, but to reveal how Netflix's catalog evolves across time and geography.
+          </p>
+          <div class="author-block">
+            <span>Created by</span>
+            <strong>Madhuneshwari Jinkala</strong>
+          </div>
+        </article>
+      </section>
+    </main>
+  </div>
+
+  <script src="netflix-script.js"></script>
+</body>
+</html>
